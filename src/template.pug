@@ -73,6 +73,14 @@ html(lang="en")
 
           br
           br
+          p Failure Locations
+          ul
+            each example in examples
+              if example.exception
+                li 
+                  = example.file_path
+          br 
+          br
 
           .border-b.border-gray-200.shadow
             table.table-auto#table
