@@ -4,6 +4,7 @@
   "description": "Rspec json to html report generator",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "node ./test/test.js",
     "build": "tsc"
